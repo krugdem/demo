@@ -18,5 +18,14 @@ namespace DemoTests
             var calc = new Calculator();
             Assert.Throws<ArgumentException>(() => calc.Add(-1, -3));
         }
+
+        [Fact]
+        public void test2()
+        {
+            var calc = new Calculator();
+            int a = 5;
+            int b = 3;
+            Assert.Equal(a + b, calc.Add(a, b));
+        }
     }
 }
