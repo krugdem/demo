@@ -2,7 +2,7 @@
 {
     public class Calculator
     {
-        public int add(int x, int y)
+        public int Add(int x, int y)
         {
             if (x < 1 || y < 1)
             {
