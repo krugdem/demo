@@ -23,7 +23,7 @@ namespace DemoTests
         public void test2()
         {
             var calc = new Calculator();
-            int a = 5;
+            int a = 123;
             int b = 3;
             Assert.Equal(a + b, calc.Add(a, b));
         }
